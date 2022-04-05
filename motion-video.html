@@ -10,7 +10,7 @@
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Netra - Design package</title>
+<title>Netra - Motion Video</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" href="css/main.css">
@@ -47,7 +47,7 @@
     <div class="row">
       <div class="col-md-8 work-detail-margin detail-image">
         <div class="work-image">
-          <video id="myVideo" autoplay loop muted>
+          <video id="myVideo" autoplay playsinline loop muted>
             <source src="images/assets/motion.mp4" type="video/mp4">
           </video> 
           <p> <img src="images/portfolio/motion-2.jpg"></p>
@@ -115,7 +115,7 @@
     </div>
     <div class="col-md-6 right">
       <p>© 2022 All rights reserved. All Rights Reserved<br>
-        Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Netra Team</a></p>
+        Made with <i class="fa fa-heart pulse"></i> by <a href="./#">Netra Team</a></p>
     </div>
   </div>
 </footer>
@@ -128,5 +128,8 @@
 <script src="js/retina.min.js"></script> 
 <script src="js/modernizr.js"></script> 
 <script src="js/main.js"></script>
+<script>
+  document.getElementById('myVideo').play();
+</script>
 </body>
 </html>

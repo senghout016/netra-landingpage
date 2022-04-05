@@ -49,7 +49,7 @@
     </ol>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      <video id="myVideo" autoplay loop muted>
+      <video class="landingvideo" id="myVideo" autoplay playsinline loop muted>
         <source src="images/assets/Profile.mp4" type="video/mp4">
       </video> 
     </div>
@@ -221,7 +221,7 @@
     </div>
     <div class="col-md-6 right">
       <p>© 2022 All rights reserved. All Rights Reserved<br>
-        Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Netra Team</a></p>
+        Made with <i class="fa fa-heart pulse"></i> by <a href="#">Netra Team</a></p>
     </div>
   </div>
 </footer>
@@ -235,6 +235,7 @@
 <script src="js/modernizr.js"></script> 
 <script src="js/main.js"></script>
 <script>
+  document.getElementById('myVideo').play();
 </script>
 </body>
 </html>
